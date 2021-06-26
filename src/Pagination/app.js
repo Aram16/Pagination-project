@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import EventsPage from './index'
 
+
 // Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
@@ -21,8 +22,6 @@ SwiperCore.use([Pagination,Navigation]);
 
 export default function App() {
   
-  
-  
   return (
     <>
         <Swiper
@@ -37,15 +36,26 @@ export default function App() {
             navigation={true} 
             className="mySwiper"
         >
-            <SwiperSlide> <EventsPage /></SwiperSlide>
+            <SwiperSlide>
+            </SwiperSlide>
+            <SwiperSlide>
+                <EventsPage />
+            </SwiperSlide>
+            <SwiperSlide>
+                <EventsPage />
+            </SwiperSlide>
+            <SwiperSlide>
+                <EventsPage />
+            </SwiperSlide>
+            <SwiperSlide>
+                <EventsPage />
+            </SwiperSlide>
+            <SwiperSlide>
+                <EventsPage />
+            </SwiperSlide>
+            {/* <SwiperSlide><EventsPage /></SwiperSlide>
             <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
-            <SwiperSlide><EventsPage /></SwiperSlide>
+            <SwiperSlide><EventsPage /></SwiperSlide> */}
         </Swiper>
     </>
   )

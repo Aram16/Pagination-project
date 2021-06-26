@@ -10,7 +10,7 @@ const eventNews = [
         activity: activity,
         title: 'News Title',
         type: 'News',
-        time: '11.06.2030',
+        time: '11.06.2050',
         text: `Praesent quis viverra ligula, vel convallis 
         massa. Mauris eget mi sed nulla laoreet 
         sollicitudin vitae et lacus. Duis tempus 
@@ -45,8 +45,24 @@ const eventNews = [
     //     at malesuada. Suspendisse potenti.`,
     // },
 ];
+const eventNews2 = [
+    {
+        src: image, //image src
+        activity: activity,
+        title: 'News Title',
+        type: 'News',
+        time: '11.06.2040',
+        text: `Praesent quis viverra ligula, vel convallis 
+        massa. Mauris eget mi sed nulla laoreet 
+        sollicitudin vitae et lacus. Duis tempus 
+        eleifend interdum. Aliquam aliquam 
+        luctus commodo. Donec tempor vel nunc 
+        at malesuada. Suspendisse potenti. `,
+    },
+]
 
-const EventsPage = () => {
+
+ const EventsPage = () => {
     return (
         <div className="div-events">
             <div className="root">
